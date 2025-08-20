@@ -5,7 +5,7 @@ Android library for displaying and managing hierarchical lists of blocks and eve
 
 ## Installation
 
-Usage / see `demo/`
+## Usage / see `demo/`
 
 ```java
 BlockListView blockListView = findViewById(R.id.block_list_view);
@@ -35,26 +35,26 @@ blockListView.toggleEvent(event);
 
 Data Structure
 
-· BaseItem: Base class with name, layout, background
-· EventItem: Container for blocks (expandable/collapsible)
-· BlockItem: Individual block belonging to an event
+• `BaseItem`: Base class with name, layout, background\
+• `EventItem`: Container for blocks (expandable/collapsible)\
+• `BlockItem`: Individual block belonging to an event\
 
 Gestures
 
-· Long press to start dragging
-· Drag items up/down
-· Swipe left to delete items
+• Long press to start dragging\
+• Drag items up/down\
+• Swipe left to delete items\
 
 Customization
 
 Override layouts and styles:
 
-· R.layout.event_item - Event layout
-· R.layout.block_item - Block layout
-· R.menu.event_actions - Event context menu
-· R.menu.block_actions - Block context menu
+• `R.layout.event_item` - Event layout\
+• `R.layout.block_item` - Block layout\
+• `R.menu.event_actions` - Event context menu\
+• `R.menu.block_actions` - Block context menu\
 
-License
+## License
 
 ```
 Copyright (C) 2023 Xedox
